@@ -7,8 +7,7 @@ function eventClick(event) {
   console.log(event);
 };
 
-document.getElementById('#btnToClick')
-addEventListener('click', eventClick)
+document.getElementById('btnToClick').addEventListener('click', eventClick);
 
 // 1.2 Añade un evento 'focus' que ejecute un console.log con el valor del input.
 
